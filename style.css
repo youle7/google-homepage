@@ -1,0 +1,84 @@
+body { 
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+#nav a {
+    margin-right: 20px;
+}
+
+#nav a.navimage {
+    width: 20px;
+    height: 20px;
+    background: brown;
+    border-radius: 50%;
+    
+}
+
+#middle {
+    margin-top: 150px;
+}
+
+#logo {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#searchbarcontainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 500px;
+    height: 10px;
+    border-radius: 10px;
+    border: 1px solid #5a5959;
+}
+
+#buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+#links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer {
+    
+    
+    background-color: rgb(218, 218, 218);
+    color: rgb(165, 164, 164);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    vertical-align: bottom;
+    margin-bottom: 0px;
+    margin-top: 200px;
+     
+  }
+
+
+
+
